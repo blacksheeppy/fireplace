@@ -1,4 +1,4 @@
-package __PACKAGE__
+package com.example.myapp
 
 import dev.alpas.Application
 import dev.alpas.ServiceProvider

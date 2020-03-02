@@ -1,6 +1,6 @@
-package __PACKAGE__.configs
+package com.example.myapp.configs
 
-import __PACKAGE__.entities.Users
+import com.example.myapp.entities.Users
 import dev.alpas.Environment
 import dev.alpas.auth.SessionAuthChannel
 import dev.alpas.auth.AuthConfig as BaseConfig

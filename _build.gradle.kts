@@ -8,13 +8,13 @@
 //    id("com.github.johnrengelman.shadow") version "5.2.0"
 //}
 //
-//group = "__PACKAGE__"
+//group = "com.example.myapp"
 //version = "1.0.0"
 //
 //application {
-//    mainClassName = "__PACKAGE__.StartKt"
-//    applicationName = "__APP_NAME__"
-//    executableDir = "./build/install/__APP_NAME__"
+//    mainClassName = "com.example.myapp.StartKt"
+//    applicationName = "myapp"
+//    executableDir = "./build/install/myapp"
 //}
 //
 //repositories {
@@ -47,11 +47,11 @@
 //
 //tasks.named<ShadowJar>("shadowJar") {
 //    destinationDirectory.file("./")
-//    archiveBaseName.set("__APP_NAME__")
+//    archiveBaseName.set("myapp")
 //    //archiveClassifier.set(null)
 //    //archiveVersion.set(null)
 //
 //    manifest {
-//        attributes(mapOf("Main-Class" to "__PACKAGE__.StartKt"))
+//        attributes(mapOf("Main-Class" to "com.example.myapp.StartKt"))
 //    }
 //}

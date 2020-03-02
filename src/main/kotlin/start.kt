@@ -1,4 +1,4 @@
-package __PACKAGE__
+package com.example.myapp
 
 import dev.alpas.Alpas
 

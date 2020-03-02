@@ -1,6 +1,7 @@
-package __PACKAGE__
+package com.example.myapp
 
-import __PACKAGE__.controllers.WelcomeController
+import com.example.myapp.controllers.WelcomeController
+import dev.alpas.auth.authRoutes
 import dev.alpas.routing.RouteGroup
 import dev.alpas.routing.Router
 
@@ -8,6 +9,7 @@ import dev.alpas.routing.Router
 fun Router.addRoutes() = apply {
     group {
         webRoutesGroup()
+        authRoutes(requireEmailVerification = false)
     }.middlewareGroup("web")
 
     apiRoutes()

@@ -1,7 +1,7 @@
-package __PACKAGE__.database.factories
+package com.example.myapp.database.factories
 
-import __PACKAGE__.entities.User
-import __PACKAGE__.entities.Users
+import com.example.myapp.entities.User
+import com.example.myapp.entities.Users
 import dev.alpas.hashing.Hasher
 import dev.alpas.ozone.EntityFactory
 import dev.alpas.ozone.faker
